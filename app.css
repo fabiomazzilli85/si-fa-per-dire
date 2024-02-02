@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    background-color: #EEEDEB;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.tag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    padding: 5px;
+}
+
+.background_navbar {
+    background-color: #C2D9FF;
+}
+
+.logo {
+    width: 40px;
+}
+
+.cinema {
+    background-color: #40A2E3;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+.filosofia {
+    background-color: #FFBB64;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+.letteratura {
+    background-color: #99B080;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+.coll-45 {
+    width: 40%;
+}
+
+.coll-50 {
+    width: 50%;
+}
+
+.aforisma {
+    max-width: 350px;
+    line-height: 25px;
+}
+
+.column {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 35px 0px;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
