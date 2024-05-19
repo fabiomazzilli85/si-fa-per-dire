@@ -1,85 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="app.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="favicon.png">
-    <title>Si fa per dire</title>
+    <title>Si fa per dire...</title>
 </head>
+
 <body>
-    <header>
-        <div class="background_navbar">    
-            <div class="tag">
-                <img class="logo" src="logo.png" alt="logo">
-                <div class="cinema">cinema</div>
-                <div class="filosofia">filosofia</div>
-                <div class="letteratura">letteratura</div>
+    <header class="page-header">
+        <div>
+            <div class="mr-nav flex-nav">
+                <div class="tag-flex">
+                    <button type="button" class="btn btn-outline-primary">cinema</button>
+                    <button type="button" class="btn btn-outline-warning">filosofia</button>
+                    <button type="button" class="btn btn-outline-danger">letteratura</button>
+                </div>
             </div>
         </div>
     </header>
 
     <main>
-        <section>
-            <div class="container">
-                <div class="row column">
-                    <div class="col-45 filosofia" >Plotino</div>
-                    <p class="col-50 aforisma">Rientra in te stesso e guarda: se non ti vedi ancora bello, imita lo scultore di una statua che deve diventare bella. Egli toglie, appiana, liscia, ripulisce le impurità, fino a che non si mostri la bellezza che rifulge sul volto.</p>
+        <div class="container flex-aforisma">
+            <div class="card" style="width: 18rem;">
+                <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTIWoFfsCPDIkUNu6jzz4buAnHRBCWt-7w9iDBmNuEZJvqpzFtD"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h2 class="h3 text-warning text-center">Plotino</h2>
+                    <p class="card-text">Rientra in te stesso e guarda: se non ti vedi ancora bello, imita lo scultore
+                        di una statua che deve diventare bella. Egli toglie, appiana, liscia, ripulisce le impurità,
+                        fino a che non si mostri la bellezza che rifulge sul volto.</p>
                 </div>
             </div>
-        </section>   
 
-        <section>
-            <div class="container">
-                <div class="row column">
-                    <div class="col-45 cinema" >Scorsese</div>
-                    <p class="col-50 aforisma">Ora più che mai dobbiamo ascoltarci a vicenda e capire come intendiamo il mondo, e il cinema è il modo migliore per farlo.</p>
+            <div class="card" style="width: 18rem;">
+                <img src="https://media.gqitalia.it/photos/6513e7b95d18f3143c3857cc/master/w_2560%2Cc_limit/GQ1123_Scorsese_01.jpg"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h2 class="h3 text-primary text-center">Scorsese</h2>
+                    <p class="card-text">Ora più che mai dobbiamo ascoltarci a vicenda e capire come intendiamo il
+                        mondo, e il cinema è il modo migliore per farlo.</p>
                 </div>
             </div>
-        </section>   
 
-        <section>
-            <div class="container">
-                <div class="row column">
-                    <div class="col-45 cinema letteratura" >Murakami</div>
-                    <p class="col-50 aforisma">Non avrebbe dovuto dirmi che forse sarebbe tornata. Le promesse, seppur vaghe, rimangono per sempre scolpite nell'animo.</p>
+            <div class="card" style="width: 18rem;">
+                <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTMpwbV9cQOS0UjFQ5Xl2jdeTrsSJRx_vQAQkj-xjwi5bek3iEW"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h2 class="h3 text-danger text-center">Murakami</h2>
+                    <p class="card-text">Non avrebbe dovuto dirmi che forse sarebbe tornata. Le promesse, seppur vaghe,
+                        rimangono per sempre scolpite nell'animo.</p>
                 </div>
             </div>
-        </section>   
 
-        <section>
-            <div class="container">
-                <div class="row column">
-                    <div class="col-45 cinema letteratura margin_eco" >Umberto Eco</div>
-                    <p class="col-50 aforisma">I social mediadannodiritto di parola a legioni di imbecilli che prima parlavano solo al bar dopo un bicchiere di vino, senza danneggiare la collettività. Venivano subito messi a tacere, mentre ora hanno lo stesso diritto di parola di un Premio Nobel. È l’invasione degli imbecilli.</p>
+            <div class="card" style="width: 18rem;">
+                <img src="https://premiostrega.it/PS/wp-content/uploads/2022/09/Umberto-Eco.jpg" class="card-img-top"
+                    alt="...">
+                <div class="card-body">
+                    <h2 class="h3 text-danger text-center">Umberto Eco</h2>
+                    <p class="card-text">I social media danno diritto di parola a legioni di imbecilli che prima
+                        parlavano solo al bar dopo un bicchiere di vino, senza danneggiare la collettività. Venivano
+                        subito messi a tacere, mentre ora hanno lo stesso diritto di parola di un Premio Nobel. È
+                        l’invasione degli imbecilli.</p>
                 </div>
             </div>
-        </section>   
 
-        <section>
-            <div class="container">
-                <div class="row column">
-                    <div class="col-45 cinema filosofia" >Seneca</div>
-                    <p class="col-50 aforisma">Il maggior ostacolo del vivere è l'attesa, che dipende dal domani ma spreca l'oggi.</p>
+            <div class="card" style="width: 18rem;">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Duble_herma_of_Socrates_and_Seneca_Antikensammlung_Berlin_07.jpg/800px-Duble_herma_of_Socrates_and_Seneca_Antikensammlung_Berlin_07.jpg"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h2 class="h3 text-warning text-center">Seneca</h2>
+                    <p class="card-text">Il maggior ostacolo del vivere è l'attesa, che dipende dal domani ma spreca
+                        l'oggi.</p>
                 </div>
             </div>
-        </section>  
 
-        <section>
-            <div class="container">
-                <div class="row column">
-                    <div class="col-45 cinema cinema" >De Palma</div>
-                    <p class="col-50 aforisma">La macchina da presa mente in continuazione, mente ventiquattro volte al secondo.</p>
+            <div class="card" style="width: 18rem;">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/e/e0/BrianDePalma09TIFF.jpg"
+                    class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h2 class="h3 text-primary text-center">Brian De Palma</h2>
+                    <p class="card-text">La macchina da presa mente in continuazione, mente ventiquattro volte al
+                        secondo.</p>
                 </div>
             </div>
-        </section>  
+        </div>
     </main>
 
     <footer>
-        <p class="footer">Realizzato con &hearts; da Fabio Mazzilli, studente Boolean</p>
+        <p class="text-center mt-5 mb-3 fs-5">Fabio Mazzilli ~ Progetto Boolean ~ 2024</p>
     </footer>
 </body>
 </html>
